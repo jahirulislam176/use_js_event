@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body onload="loadlogin()">
+    <section>
+        <div class="form-container">
+            <h1>Login Form</h1>
+        <form action="index.html">
+            <div class="control">
+            <label for="name">Name </label>
+            <input type="text" id="name myinput"  onkeydown="myFunction2(event)" >
+            <p id="demo"></p>
+            </div>
+            <div class="control">
+            <label for="psw">Password</label>
+            <input type="password" id="psw" >
+            </div>
+            <span><input type="checkbox"> Remember me</span>
+            <div class="control">
+            <input type="submit" class="btn" value="Login">
+            </div>
+        </form>
+        <p><a href="#">Forget password ?</a></p>
+        </div>
+    </section>
+    <script src="event.js">
+    
+    </script>
+</body>
+</html>

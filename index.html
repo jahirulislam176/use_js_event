@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    
+</head>
+<body onclick="myFunction(event)">
+
+    
+<div class="headerContainer">
+
+<div class="logopart">
+
+<img src="img/logot.png"  class="logo" alt="not found">
+
+</div>
+
+<div class="menupart">
+
+<ul class="menu">
+
+<li><a href="#">Home</a></li>
+<li><a href="service.html">Service</a></li>
+<li><a href="#" onclick="category()">Category</a></li>
+<li><a href="login.html">Login</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+
+</ul>
+</div>
+</div>
+
+
+
+<div class="main">
+
+
+<h2 class="all_products">All Cars <span id="discount_price"></span></h2>
+
+
+<div class="product">
+
+<h2 class="p-head">Model S</h2>
+
+<img src="img/tcar1.jpg" class="product_img" alt="not found">
+<h4 class="Price" onmouseover="price()">Price:$250000</h4>
+
+<button class="add_cart" onclick="Cart()"><a href="#">Add to Cart</a></button>
+
+</div>
+
+<div class="product">
+
+<h2 class="p-head">Model 3</h2>
+
+<img src="img/tcar3.png" class="product_img" alt="not found">
+<h4 class="Price" onmouseover="price()">Price:$27000</h4>
+
+<button class="add_cart" onclick="Cart()"><a href="#">Add to Cart</a></button>
+
+
+
+</div>
+
+
+
+<div class="product">
+
+<h2 class="p-head">Model X</h2>
+
+<img src="img/tcar4.jpg" class="product_img" alt="not found">
+<h4 class="Price" onmouseover="price()">Price:$80000</h4>
+<span id="discount_price"></span>
+<button class="add_cart" onclick="Cart()"><a href="#">Add to Cart</a></button>
+</div>
+<div class="product">
+<h2 class="p-head">Model Y</h2>
+<img src="img/tcar5.jpg" class="product_img" alt="not found">
+<h4 class="Price" onmouseover="price()">Price:$19000</h4>
+<button class="add_cart" onclick="Cart()"><a href="#">Add to Cart</a></button>
+</div>
+<div class="product">
+<h2 class="p-head">Cybertruck</h2>
+<img src="img/tcar6.png" class="product_img" alt="not found">
+<h4 class="Price" onmouseover="price()">Price:$25000</h4>
+<button class="add_cart" onclick="Cart()"><a href="#">Add to Cart</a></button>
+</div>
+<div class="product">
+<h2 class="p-head">Roadster</h2>
+<img src="img/tcar7.jpg" class="product_img" alt="not found">
+<h4 class="Price" onmouseover="price()">Price:$250000</h4>
+<button class="add_cart" onclick="Cart()"><a href="#">Add to Cart</a></button>
+</div>
+<div class="product">
+<h2 class="p-head">3d X </h2>
+<img src="img/tcar8.jpg" class="product_img" alt="not found">
+<h4 class="Price" onmouseover="price()">Price:$29000</h4>
+<button class="add_cart" onclick="Cart()"><a href="#">Add to Cart</a></button>
+</div>
+<div class="product">
+<h2 class="p-head">3D Y</h2>
+<img src="img/tcar1.jpg" class="product_img" alt="not found">
+<h4 class="Price" onmouseover="price()">Price:$28000</h4>
+<button class="add_cart" onclick="Cart()"><a href="#">Add to Cart</a></button>
+</div>
+</div>
+<div class="content">
+<h1 class="details" onclick="car_details()">Car Details Section </h1><span id="demo"></span>
+<div class="content1" >
+<h3 class="content-header"><marquee behavior="" direction="">Model X</marquee></h3>
+<p id="details1" onmousedown="mouseDown()" onmouseup= "onmouseUp()" > Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+Illo facere eveniet omnis sequi minus accusantium autem, culpa fugit pariatur 
+consectetur nemo delectus ut, voluptatum porro. Quasi nisi cumque facere distinctio 
+architecto consectetur unde, natus repudiandae iure impedit, ipsa recusandae, aut 
+dolore omnis blanditiis? Natus architecto ad cupiditate, esse nihil soluta aperiam 
+porro autem, sed molestias cumque delectus cum? Est nisi atque consequatur optio dolor
+ dolorum iusto eaque, voluptatibus dolores sapiente laudantium, 
+tenetur repellat dignissimos molestias quia iure, voluptas facilis ipsam.</p>
+</div>
+<div class="content1">
+<h3 class="content-header"><marquee behavior="" direction="">Model Y</marquee></h3>
+<p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+Illo facere eveniet omnis sequi minus accusantium autem, culpa fugit pariatur 
+consectetur nemo delectus ut, voluptatum porro. Quasi nisi cumque facere distinctio 
+architecto consectetur unde, natus repudiandae iure impedit, ipsa recusandae, aut 
+dolore omnis blanditiis? Natus architecto ad cupiditate, esse nihil soluta aperiam 
+porro autem, sed molestias cumque delectus cum? Est nisi atque consequatur optio dolor
+ dolorum iusto eaque, voluptatibus dolores sapiente laudantium, 
+tenetur repellat dignissimos molestias quia iure, voluptas facilis ipsam.</p>
+</div>
+<div class="content1">
+<h3 class="content-header"><marquee behavior="" direction="">Model Z</marquee></h3>
+<p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+Illo facere eveniet omnis sequi minus accusantium autem, culpa fugit pariatur 
+consectetur nemo delectus ut, voluptatum porro. Quasi nisi cumque facere distinctio 
+architecto consectetur unde, natus repudiandae iure impedit, ipsa recusandae, aut 
+dolore omnis blanditiis? Natus architecto ad cupiditate, esse nihil soluta aperiam 
+porro autem, sed molestias cumque delectus cum? Est nisi atque consequatur optio dolor
+ dolorum iusto eaque, voluptatibus dolores sapiente laudantium, 
+tenetur repellat dignissimos molestias quia iure, voluptas facilis ipsam.</p>
+</div>
+<div class="content1">
+<h3 class="content-header"><marquee behavior="" direction="">3D Model</marquee></h3>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+Illo facere eveniet omnis sequi minus accusantium autem, culpa fugit pariatur 
+consectetur nemo delectus ut, voluptatum porro. Quasi nisi cumque facere distinctio 
+architecto consectetur unde, natus repudiandae iure impedit, ipsa recusandae, aut 
+dolore omnis blanditiis? Natus architecto ad cupiditate, esse nihil soluta aperiam 
+porro autem, sed molestias cumque delectus cum? Est nisi atque consequatur optio dolor
+ dolorum iusto eaque, voluptatibus dolores sapiente laudantium, 
+tenetur repellat dignissimos molestias quia iure, voluptas facilis ipsam.</p>
+</div>
+</div>
+<hr>
+<!--
+Footer part
+-->
+<footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>company</h4>
+  	 			<ul>
+  	 				<li><a href="#">about us</a></li>
+  	 				<li><a href="#">our services</a></li>
+  	 				<li><a href="#">privacy policy</a></li>
+  	 				<li><a href="#">affiliate program</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>get help</h4>
+  	 			<ul>
+  	 				<li><a href="#">FAQ</a></li>
+  	 				<li><a href="#">shipping</a></li>
+  	 				<li><a href="#">returns</a></li>
+  	 				<li><a href="#">order status</a></li>
+  	 				<li><a href="#">payment options</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>online shop</h4>
+  	 			<ul>
+  	 				<li><a href="#">watch</a></li>
+  	 				<li><a href="#">bag</a></li>
+  	 				<li><a href="#">shoes</a></li>
+  	 				<li><a href="#">dress</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 				<a href="#"><i class="fab fa-instagram"></i></a>
+  	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+
+
+
+<!--
+
+End Footer
+  
+-->
+<hr>
+<div class="last_footer">
+<h4 style="text-align:center; font-size:20px">2021 tesla.com Limited. All rights reserved.</h4>
+
+</div>
+
+
+
+
+
+<script src="event.js">
+
+</script>
+
+</body>
+</html>

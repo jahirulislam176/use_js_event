@@ -1,0 +1,65 @@
+
+
+@media screen and (max-width:768px) {
+    .headerContainer{
+        width:100%;
+        
+        
+    }
+
+    
+        
+        .logo{
+    
+            width: 100%;
+            border-radius: 50px;
+            border: 5px solid black;
+        }
+    
+    .menupart{
+        width:100%;
+         
+    }
+    .main{
+        width:100%;
+    }
+    .content{
+        width:100%;
+    }
+    .footer_part{
+        width:100%;
+    }
+    .footer_menu1{
+        width:100%; 
+    }
+    .footer_menu2{
+        width:100%; 
+
+    }
+    .last_footer{
+        width:100%;
+    }
+    
+
+    
+}
+
+
+
+
+
+/*  
+login qnd Contact page Responsive start
+
+*/
+@media screen and (max-width:600px) {
+     #all{
+        width:100%;   
+    }
+
+}
+
+
+/*login qnd Contact page Responsive start
+
+*/

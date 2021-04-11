@@ -1,0 +1,55 @@
+*{
+    margin:0%;   
+}
+
+@media screen and (max-width: 700px) {
+
+    .inputfield{
+        background-color: red;
+        
+    }
+}
+
+
+#all{
+    width: 700px;
+    padding:10px;
+    margin: auto;
+}
+#inputfield input,select{
+    margin-bottom:10px;
+	width:98%;
+    padding: 30px;
+	padding-top:8px;
+	padding-bottom:8px;
+	border:1px solid black;
+    border-radius: 15px;
+	
+}
+
+#inputfield input{
+    margin-bottom:10px;
+	width:98%;
+    padding: 40px;
+	padding-top:8px;
+	padding-bottom:8px;
+    border-radius: 15px;
+	border:1px solid black;	
+}
+#inputfield span{
+    width:100%;
+	padding:8px;
+	margin-bottom:10px;
+	display:block;
+}
+.signup input,h1{
+    background:#566E7A;
+	margin-bottom:10px;
+    width:100%;
+    padding: 20px;
+    text-align: center;
+}
+.signup input{
+    width:100%;  
+}
+
